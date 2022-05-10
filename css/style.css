@@ -177,19 +177,62 @@ button {
     margin-left: 150px;
 }
 
+
+.last-title-main {
+    background-image: url(../img/stars.svg);
+    font-size: 40px;
+}
+
+.s-mac2 {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #7289da;
+    color: white;
+    margin: 50px 0 20px 210px;
+}
+
+.adventure {
+    margin: 50px 0px 50px 500px;
+}
+
 /* footer */
 
 .sfondo-nero {
     background-color: #000000;
-    padding: 20px;
+    padding: 80px;
 }
 
 .img-footer {
-    background-color: #7d2c2c;
     width: 20%;
     height: 300px;
     margin-bottom: 20px;
 }
+
+.rows {
+    line-height: 30px;
+    
+}
+
+.rows h1 {
+    color: #7289da;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.rows img {
+    width: 30px;
+}
+
+.ita {
+    color: white;
+    display: inline-block;
+    vertical-align: 5px;
+}
+
+.social {
+    color: white;
+}
+
 
 .varie-sec {
     background-color: #329fbe;

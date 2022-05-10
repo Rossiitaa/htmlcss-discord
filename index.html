@@ -5,23 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>htmlcss-struttura-discord</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 <!-- header -->
     <header>
-            <div class="flex-container container sfondo-arancio">
-                <div class="logo"> Logo </div>
-                    <nav class="link">
-                        <ul>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                        </ul>
-                    </nav>
-            <div class="login"> Login </div>
+        <div class="flex-container container">
+            <div class="logo"><img src="./img/logo.svg" alt="logo-discord"></div>
+                <nav>
+                    <ul class="flex-container">
+                        <li> <a href="#">Scarica</a> </li>
+                        <li> <a href="#">Perchè Discord</a> </li>
+                        <li> <a href="#">Nitro</a> </li>
+                        <li> <a href="#">Sicurezza</a> </li>
+                        <li> <a href="#">Assistenza</a> </li>
+                    </ul>
+                </nav>
+            <div class="login"> 
+                <button type="submit">
+                    Accedi
+                </button>    
+            </div>
         </div>
     </header>
 <!-- fine-header -->
@@ -29,15 +34,32 @@
 <!-- inizio-main -->
     <main>
         <!-- prima-sezione -->
-        <section class="prima-sezione">
-            <div class="interno-1-sezione flex-container"></div>
+        <section class="flex-container prima-sezione">
+            <div class="interno-1-sezione">
+                <h1 class="title1">Il tuo posto per parlare</h1>
+                <p class="paragraph1">
+                    Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, 
+                    o semplicemente di un piccolo gruppo di amici che vuole passare 
+                    il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+                </p>
+                <div class="mac-browser">
+                    <button type="submit" class="s-mac"><i class="fa-solid fa-down-long"></i>Scarica per Mac</button>
+                    <button type="submit" class="a-browser">Apri discord nel tuo browser</button>
+                </div>
+            </div>
         </section>
 
         <!-- seconda-sezione -->
         <section class="seconda-sezione">
-            <div class="flex-container container">
-                <div class="img"></div>
-                <div class="testo1"></div>
+            <div class="flex-container container interno-2">
+                <div class="img"><img src="./img/item1.svg" alt="study-group"></div>
+                <div class="title2">
+                    <h1>Un luogo a invito con tutto lo spazio necessario per parlare</h1>
+                    <p>
+                        I server Discord sono organizzati in canali tematici in cui puoi collaborare, 
+                        condividere o semplicemente parlare della tua giornata senza intassare una chat di gruppo.-
+                    </p>
+                </div>
             </div>
         </section>
 

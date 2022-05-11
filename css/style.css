@@ -199,7 +199,7 @@ button {
 
 .sfondo-nero {
     background-color: #000000;
-    padding: 80px;
+    padding: 15px;
 }
 
 .img-footer {
@@ -209,7 +209,7 @@ button {
 }
 
 .rows {
-    line-height: 30px;
+    line-height: 35px;
     
 }
 
@@ -233,30 +233,45 @@ button {
     color: white;
 }
 
+.twitter {
+    margin-right: 12px;
+
+}
+.instagram {
+    margin-right: 12px;
+}
+
+
+.facebook {
+    margin-right: 12px;
+}
+
+h3 {
+    color: #7289da;
+}
 
 .varie-sec {
-    background-color: #329fbe;
     width: 20%;
     height: 300px;
     margin-bottom: 20px;
 }
 
-hr {
-    border-color: gray;
-}
+
 
 .logo-bottone {
-    background-color: #2ad6b4;
     justify-content: space-between;
-    height: 50px;
+    margin-top: 50px;
 }
 
 .logo-end {
-    background-color: #e78787;
     padding: 5px;
 }
 
 .bottone-end {
-    background-color: #e78787;
     padding: 5px;
+}
+
+.registration {
+    background-color: #7289da;
+    color: white;
 }
